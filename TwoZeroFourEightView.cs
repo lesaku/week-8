@@ -14,7 +14,7 @@ namespace twozerofoureight
     {
         Model model;
         Controller controller;
-       
+        TwoZeroFourEightScore f = new TwoZeroFourEightScore();
         public TwoZeroFourEightView()
         {
             InitializeComponent();
@@ -99,10 +99,7 @@ namespace twozerofoureight
             controller.ActionPerformed(TwoZeroFourEightController.DOWN);
         }
 
-        private void TwoZeroFourEightView_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void upadateScore(int[,] board)
         {
